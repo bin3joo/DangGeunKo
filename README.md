@@ -91,108 +91,108 @@
 
 <details>
   <summary><b>🗂️ 폴더 구조</b></summary>
-
   <br />
-📦BACK_DangGeunKo
- ┣ 📂src/main/java/com/danggeunko
- ┃ ┣ 📂ai
- ┃ ┣ 📂auth
- ┃ ┃ ┣ 📂jwt
- ┃ ┣ 📂common
- ┃ ┃ ┣ 📂config
- ┃ ┃ ┃ ┣ 📜MyBatisConfig.java
- ┃ ┃ ┃ ┣ 📜SecurityConfig.java
- ┃ ┃ ┃ ┣ 📜SwaggerConfig.java
- ┃ ┃ ┃ ┗ 📜WebConfig.java
- ┃ ┣ 📂course
- ┃ ┣ 📂review
- ┃ ┣ 📂user
- ┗ 📂thumbnail
 
- 📦FRONT_DangGeunKo
- ┣ 📂front-danggeunko
- ┃ ┣ 📂src
- ┃ ┃ ┣ 📂api
- ┃ ┃ ┃ ┗ 📜axios.js
- ┃ ┃ ┣ 📂assets
- ┃ ┃ ┃ ┣ 📂font
- ┃ ┃ ┃ ┣ 📂img
- ┃ ┃ ┃ ┣ 📜script.js
- ┃ ┃ ┃ ┗ 📜style.css
- ┃ ┃ ┣ 📂components
- ┃ ┃ ┃ ┣ 📂Course
- ┃ ┃ ┃ ┃ ┣ 📂Create
- ┃ ┃ ┃ ┃ ┃ ┣ 📜CourseForm.vue
- ┃ ┃ ┃ ┃ ┃ ┗ 📜DrawingMap.vue
- ┃ ┃ ┃ ┃ ┣ 📂Update
- ┃ ┃ ┃ ┃ ┃ ┣ 📜UpdateCourse.vue
- ┃ ┃ ┃ ┃ ┃ ┗ 📜UpdateDrawingMap.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseCard.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseDetail.vue
- ┃ ┃ ┃ ┃ ┗ 📜CourseList.vue
- ┃ ┃ ┃ ┣ 📂Footer
- ┃ ┃ ┃ ┃ ┣ 📂AICoach
- ┃ ┃ ┃ ┃ ┃ ┣ 📜CoachLoading.vue
- ┃ ┃ ┃ ┃ ┃ ┗ 📜CoachModal.vue
- ┃ ┃ ┃ ┃ ┣ 📜CoachButton.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseNavBar.vue
- ┃ ┃ ┃ ┃ ┣ 📜CousreFooter.vue
- ┃ ┃ ┃ ┃ ┗ 📜CreateCourseBtn.vue
- ┃ ┃ ┃ ┣ 📂Main
- ┃ ┃ ┃ ┃ ┣ 📜CourseMap.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseMapCreate.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseSearchBar.vue
- ┃ ┃ ┃ ┃ ┗ 📜StaticCourseMap.vue
- ┃ ┃ ┃ ┣ 📂MyPage
- ┃ ┃ ┃ ┃ ┣ 📜FollowSearchBar.vue
- ┃ ┃ ┃ ┃ ┣ 📜LikeCourse.vue
- ┃ ┃ ┃ ┃ ┣ 📜Profile.vue
- ┃ ┃ ┃ ┃ ┗ 📜RegistCourse.vue
- ┃ ┃ ┃ ┣ 📂Ranking
- ┃ ┃ ┃ ┃ ┣ 📜AIcomment.vue
- ┃ ┃ ┃ ┃ ┣ 📜AICommentLoading.vue
- ┃ ┃ ┃ ┃ ┣ 📜RankingFilter.vue
- ┃ ┃ ┃ ┃ ┗ 📜RankingList.vue
- ┃ ┃ ┃ ┣ 📂Review
- ┃ ┃ ┃ ┃ ┣ 📜Review.vue
- ┃ ┃ ┃ ┃ ┣ 📜ReviewCard.vue
- ┃ ┃ ┃ ┃ ┗ 📜ReviewForm.vue
- ┃ ┃ ┃ ┗ 📜CourseFilter.vue
- ┃ ┃ ┣ 📂router
- ┃ ┃ ┃ ┗ 📜index.js
- ┃ ┃ ┣ 📂stores
- ┃ ┃ ┃ ┣ 📜ai.js
- ┃ ┃ ┃ ┣ 📜course.js
- ┃ ┃ ┃ ┣ 📜map.js
- ┃ ┃ ┃ ┣ 📜review.js
- ┃ ┃ ┃ ┗ 📜user.js
- ┃ ┃ ┣ 📂utils
- ┃ ┃ ┃ ┗ 📜timeUtils.js
- ┃ ┃ ┣ 📂views
- ┃ ┃ ┃ ┣ 📂Course
- ┃ ┃ ┃ ┃ ┣ 📜CoureseListView.vue
- ┃ ┃ ┃ ┃ ┣ 📜CourseDetailView.vue
- ┃ ┃ ┃ ┃ ┣ 📜CreateCourseView.vue
- ┃ ┃ ┃ ┃ ┣ 📜RankingListView.vue
- ┃ ┃ ┃ ┃ ┗ 📜UpdateCourseView.vue
- ┃ ┃ ┃ ┣ 📂MyPage
- ┃ ┃ ┃ ┃ ┣ 📜EditProfileView.vue
- ┃ ┃ ┃ ┃ ┣ 📜FollowView.vue
- ┃ ┃ ┃ ┃ ┣ 📜MyCourseListView.vue
- ┃ ┃ ┃ ┃ ┗ 📜MyInfoView.vue
- ┃ ┃ ┃ ┣ 📜HomeView.vue
- ┃ ┃ ┃ ┣ 📜LoginView.vue
- ┃ ┃ ┃ ┣ 📜OnBoardingView.vue
- ┃ ┃ ┃ ┗ 📜SignUpView.vue
- ┃ ┃ ┣ 📜App.vue
- ┃ ┃ ┗ 📜main.js
- ┃ ┣ 📜.gitignore
- ┃ ┣ 📜index.html
- ┃ ┣ 📜jsconfig.json
- ┃ ┣ 📜package-lock.json
- ┃ ┣ 📜package.json
- ┃ ┣ 📜README.md
- ┃ ┗ 📜vite.config.js
+  <pre><code>📦 BACK_DangGeunKo
+┣ 📂 src/main/java/com/danggeunko
+┃ ┣ 📂 ai
+┃ ┣ 📂 auth
+┃ ┃ ┗ 📂 jwt
+┃ ┣ 📂 common
+┃ ┃ ┗ 📂 config
+┃ ┃   ┣ 📜 MyBatisConfig.java
+┃ ┃   ┣ 📜 SecurityConfig.java
+┃ ┃   ┣ 📜 SwaggerConfig.java
+┃ ┃   ┗ 📜 WebConfig.java
+┃ ┣ 📂 course
+┃ ┣ 📂 review
+┃ ┣ 📂 user
+┃ ┗ 📂 thumbnail
+
+📦 FRONT_DangGeunKo
+┗ 📂 front-danggeunko
+  ┣ 📂 src
+  ┃ ┣ 📂 api
+  ┃ ┃ ┗ 📜 axios.js
+  ┃ ┣ 📂 assets
+  ┃ ┃ ┣ 📂 font
+  ┃ ┃ ┣ 📂 img
+  ┃ ┃ ┣ 📜 script.js
+  ┃ ┃ ┗ 📜 style.css
+  ┃ ┣ 📂 components
+  ┃ ┃ ┣ 📂 Course
+  ┃ ┃ ┃ ┣ 📂 Create
+  ┃ ┃ ┃ ┃ ┣ 📜 CourseForm.vue
+  ┃ ┃ ┃ ┃ ┗ 📜 DrawingMap.vue
+  ┃ ┃ ┃ ┣ 📂 Update
+  ┃ ┃ ┃ ┃ ┣ 📜 UpdateCourse.vue
+  ┃ ┃ ┃ ┃ ┗ 📜 UpdateDrawingMap.vue
+  ┃ ┃ ┃ ┣ 📜 CourseCard.vue
+  ┃ ┃ ┃ ┣ 📜 CourseDetail.vue
+  ┃ ┃ ┃ ┗ 📜 CourseList.vue
+  ┃ ┃ ┣ 📂 Footer
+  ┃ ┃ ┃ ┣ 📂 AICoach
+  ┃ ┃ ┃ ┃ ┣ 📜 CoachLoading.vue
+  ┃ ┃ ┃ ┃ ┗ 📜 CoachModal.vue
+  ┃ ┃ ┃ ┣ 📜 CoachButton.vue
+  ┃ ┃ ┃ ┣ 📜 CourseNavBar.vue
+  ┃ ┃ ┃ ┣ 📜 CousreFooter.vue
+  ┃ ┃ ┃ ┗ 📜 CreateCourseBtn.vue
+  ┃ ┃ ┣ 📂 Main
+  ┃ ┃ ┃ ┣ 📜 CourseMap.vue
+  ┃ ┃ ┃ ┣ 📜 CourseMapCreate.vue
+  ┃ ┃ ┃ ┣ 📜 CourseSearchBar.vue
+  ┃ ┃ ┃ ┗ 📜 StaticCourseMap.vue
+  ┃ ┃ ┣ 📂 MyPage
+  ┃ ┃ ┃ ┣ 📜 FollowSearchBar.vue
+  ┃ ┃ ┃ ┣ 📜 LikeCourse.vue
+  ┃ ┃ ┃ ┣ 📜 Profile.vue
+  ┃ ┃ ┃ ┗ 📜 RegistCourse.vue
+  ┃ ┃ ┣ 📂 Ranking
+  ┃ ┃ ┃ ┣ 📜 AIcomment.vue
+  ┃ ┃ ┃ ┣ 📜 AICommentLoading.vue
+  ┃ ┃ ┃ ┣ 📜 RankingFilter.vue
+  ┃ ┃ ┃ ┗ 📜 RankingList.vue
+  ┃ ┃ ┣ 📂 Review
+  ┃ ┃ ┃ ┣ 📜 Review.vue
+  ┃ ┃ ┃ ┣ 📜 ReviewCard.vue
+  ┃ ┃ ┃ ┗ 📜 ReviewForm.vue
+  ┃ ┃ ┗ 📜 CourseFilter.vue
+  ┃ ┣ 📂 router
+  ┃ ┃ ┗ 📜 index.js
+  ┃ ┣ 📂 stores
+  ┃ ┃ ┣ 📜 ai.js
+  ┃ ┃ ┣ 📜 course.js
+  ┃ ┃ ┣ 📜 map.js
+  ┃ ┃ ┣ 📜 review.js
+  ┃ ┃ ┗ 📜 user.js
+  ┃ ┣ 📂 utils
+  ┃ ┃ ┗ 📜 timeUtils.js
+  ┃ ┣ 📂 views
+  ┃ ┃ ┣ 📂 Course
+  ┃ ┃ ┃ ┣ 📜 CoureseListView.vue
+  ┃ ┃ ┃ ┣ 📜 CourseDetailView.vue
+  ┃ ┃ ┃ ┣ 📜 CreateCourseView.vue
+  ┃ ┃ ┃ ┣ 📜 RankingListView.vue
+  ┃ ┃ ┃ ┗ 📜 UpdateCourseView.vue
+  ┃ ┃ ┣ 📂 MyPage
+  ┃ ┃ ┃ ┣ 📜 EditProfileView.vue
+  ┃ ┃ ┃ ┣ 📜 FollowView.vue
+  ┃ ┃ ┃ ┣ 📜 MyCourseListView.vue
+  ┃ ┃ ┃ ┗ 📜 MyInfoView.vue
+  ┃ ┃ ┣ 📜 HomeView.vue
+  ┃ ┃ ┣ 📜 LoginView.vue
+  ┃ ┃ ┣ 📜 OnBoardingView.vue
+  ┃ ┃ ┗ 📜 SignUpView.vue
+  ┃ ┣ 📜 App.vue
+  ┃ ┗ 📜 main.js
+  ┣ 📜 .gitignore
+  ┣ 📜 index.html
+  ┣ 📜 jsconfig.json
+  ┣ 📜 package-lock.json
+  ┣ 📜 package.json
+  ┣ 📜 README.md
+  ┗ 📜 vite.config.js</code></pre>
 </details>
 
 ---
