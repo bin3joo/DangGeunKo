@@ -242,15 +242,15 @@ node server.js
 ## 🎥 실행 영상
 
 ### 1) 온보딩, 코스 탐색, 필터링
-
+https://github.com/user-attachments/assets/6437d3de-8f39-4b9e-92a6-54d9cf3b00bd
 
 ### 2) 로그인, 회원 가입, 코스 등록
-
+https://github.com/user-attachments/assets/8ee3ed2a-f166-4508-bc86-67acc99b5bdf
 
 ### 3) 코스 상세, 찜, 댓글, 팔로우
-
+https://github.com/user-attachments/assets/99dafc2b-7471-46b3-a263-0b64ffd68d45
 
 ### 4) 마이페이지
-
+https://github.com/user-attachments/assets/b14e1219-666b-4d7b-a6e4-abb3911e2113
 
 ### 5) 랭킹, AI
