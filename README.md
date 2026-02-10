@@ -254,3 +254,5 @@ https://github.com/user-attachments/assets/99dafc2b-7471-46b3-a263-0b64ffd68d45
 https://github.com/user-attachments/assets/b14e1219-666b-4d7b-a6e4-abb3911e2113
 
 ### 5) 랭킹, AI
+https://github.com/user-attachments/assets/21103379-40eb-48fe-ac78-e3e72540d787
+
